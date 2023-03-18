@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  padding-top: 30px;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: palevioletred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+img {
+  max-width: 20rem;
+}
+.top {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gold;
+  max-width: 27rem;
+  width: 27rem;
+  max-height: 34rem;
+  border-radius: 20px;
+  margin-bottom: 4rem;
+}
+
+.top h4 {
+  color: brown;
+  text-decoration: line-through;
+}
+.top h5 {
+  color: red;
+}
+.top1 {
+  border-bottom: 2px solid black;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.others {
+  padding-top: 2rem;
+  line-height: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+@media all and (max-width: 500px) {
+  header {
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  img {
+    max-width: 20rem;
+  }
+  .top {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gold;
+    max-width: 22rem;
+    width: 27rem;
+    max-height: 34rem;
+    border-radius: 20px;
+    margin-bottom: 4rem;
+  }
+
+  .top h4 {
+    color: brown;
+    text-decoration: line-through;
+  }
+  .top h5 {
+    color: red;
+  }
+  .top1 {
+    border-bottom: 2px solid black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .others {
+    padding-top: 2rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+}
+main {
+  min-height: 100vh;
+}

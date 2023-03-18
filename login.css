@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("/2817799.jpg");
+  background-position: center;
+  background-size: cover;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 70%;
+  min-height: 80vh;
+  border-radius: 0 2rem 0 2rem;
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+form input {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 2rem 0 2rem 0;
+  text-align: center;
+  background-color: pink;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+form button {
+  margin-top: 3rem;
+  width: 7rem;
+  height: 2rem;
+}
